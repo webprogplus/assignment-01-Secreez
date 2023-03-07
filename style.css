@@ -1,3 +1,17 @@
 body {
+  /* configures the look of the body. - this is how a comment works in css. */
   font-family: monospace;
+  background-color: #f0f0f0; 
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  /* is in the body, so it should inherit the font-family. and replace the other. */
+  /* configures the look of the footer. */
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
 }
